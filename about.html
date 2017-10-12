@@ -1,36 +1,172 @@
-<html>
+<html lang="en">
 <head>
 	<title>Precidiag Inc.</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
 	<div class="header">
 		<div>
-			<img src="images/Logo-pic.png">
-			<img src="images/Logo-dark.png">
+			<a href="index.html"><img src="images/Logo-pic.png">
+			<img src="images/Logo-dark.png"></a>
 		</div>
 
-		<div class="nav">
+	<div class="nav">
+		<div class="nav-item">
 			<a href="about.html">About</a>
 		</div>
-		<div class="nav">
+		<div class="nav-item">
 			<a href="disease.html">Disease</a>
 		</div>
-		<div class="nav">
+		<div class="nav-item">
 			<a href="microbiome.html">Microbiome</a>
 		</div>
-		<div class="nav">
-			<a href="collaborators.html">For Collaborators</a>
+		<div class="nav-item">
+			<a href="collaborators.html">Collaborators</a>
 		</div>
-		<div class="nav">
+		<div class="nav-item">
 			<a href="faqs.html">FAQs</a>
 		</div>
+	</div>
 	</div> <!-- ./header -->
 
-	
+		<div id="myCarouselAbout" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      			<li data-target="#myCarousel" data-slide-to="1"></li>
+      			<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+		
+			<!--Wrapper for slides -->
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="images/pic_placeholder4.jpg" alt="placeholder2">
+					<div class="carousel-caption">
+						<h3>Key Word One</h3>
+						<p>Mission Statement!</p>
+					</div>
+				</div>
 
+				<div class="item">
+					<img src="images/pic_placeholder4.jpg" alt="placeholder3">
+					<div class="carousel-caption">
+						<h3>Key Word Two</h3>
+						<p>Here's one of our highlights!!</p>
+					</div>
+				</div>
+
+				<div class="item">
+					<img src="images/pic_placeholder4.jpg" alt="placeholder4">
+					<div class="carousel-caption">
+						<h3>Key Word Three</h3>
+						<p>Here's more about us!!</p>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Left and right controls -->
+			<a class="left carousel-control" href="#myCarouselAbout" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarouselAbout" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+				<span class="sr-only"></span>
+			</a>
+		</div> <!-- ./Carousel -->
+
+	<div class="banner1">
+		<div class="banner1-item">
+			<img src="images/Harvard_logo.png" alt="Harvard_logo">
+		</div>
+		<div class="banner1-item">
+			<img src="images/Tufts_logo.png" alt="Tufts_logo">
+		</div>
+	</div>
+
+<div class="constrain">
+	<div class="banner2">
+		<h2>About Us</h2>
+		<P>Here will be the introduction of our company. Who we are and what we do. 
+		The txt is put here as placeholders. The company description section of your business plan is typically the second section, coming after the executive summary. The company description outlines vital details about your company, such as where you are located, how large the company is, what you do and what you hope to accomplish.
+		The company description of your business plan describes the vision and direction of the company so potential lenders and partners can develop an accurate impression about who you are.</P>
+	</div> <!-- Banner -->
 	
+	<div class="banner2">
+		<h2>Our Lab</h2>
+		<div class="banner2-flex">
+			<div class="banner2-item">
+				<img src="images/lab-icon-1.png" alt="lab-icon-1">
+				<h3>Secured</h3>
+				<p>Here can be a short description of our security settings. Payment and data security especially.</p>
+			</div>
+			<div class="banner2-item">
+				<img src="images/lab-icon-2.png" alt="lab-icon-2">
+				<h3>Certified</h3>
+				<p>Here can be a short description of our certification and authority. And maybe even tell them how to check the certification.</p>
+			</div>
+			<div class="banner2-item">
+				<img src="images/lab-icon-3.png" alt="lab-icon-3">
+				<h3>Timely</h3>
+				<p>Third feature about our lab. Since I am not the professional here, my choices may not be great.</p>
+			</div>	
+		</div> <!--./Flex -->
+	</div> <!-- Banner -->
+</div><!-- Container -->
+
+
+	<div class="footer">
+		<div class="logo">
+			<a href="index.html"><img src="images/Logo-pic.png">
+			<img src="images/Logo_text.png"></a>
+		</div>
+
+		<div class="footer-flex">
+			<div class="footer-item">
+				<h3>Product</h3>
+				<ul>
+					<li><a href="disease.html">Get the Kit</a></li>
+					<li><a href="disease.html">How it Works</a></li>
+					<li><a href="microbiome.html">Microbiome and Autism</a></li>
+			</div>
+
+			<div class="footer-item">
+				<h3>Company</h3>
+				<ul class="mid">
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="about.html">Our Lab</a></li>
+					<li><a href="">Licence and Privacy Policy</a></li>
+					<li><a href="collaborators.html">Business Affiliates</a></li>
+					<li><a href="about.html">Advisory Panel</a></li>
+				<ul>
+			</div>
+		
+			<div class="footer-item">
+				<h3>Contact</h3>
+				<ul>
+					<li><a href="faqs.html">FAQs</a></li>
+					<li><a href="faqs.html">Contact Us</a></li>
+					<li><a href=""><img src="images/facebook-icon.png"></a>
+					<a href=""><img src="images/twitter-icon.png"></a>
+					<a href=""><img src="images/youtube-icon.png"></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="statement">
+			<p>Copyright &copy 2017 | Privacy | All Right Reserved</p>
+		</div>
+		<div><img class="pic" src="images/footer_bg.png"></div>
+	</div>
+
 </body>
 
 </html>

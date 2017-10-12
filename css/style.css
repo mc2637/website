@@ -6,10 +6,16 @@ body{
 	margin:0;
 }
 
+.constrain{
+	width:80%;
+	margin: auto;
+}
+
 .header{
 	width:100%;
 	height: 217px;
 	margin: 50px 20px;
+	margin-bottom: 5px;
 	box-shadow: 0 8px 6px -6px #979797;
 }
 
@@ -17,27 +23,153 @@ body{
 	text-decoration: none;
 	color: #333;
 	font-family: Helvetica Neue;
-	font-size: 25px: 
+	font-size: 18px;
 }
 
 .header a:hover{
 	color:#BA323C;
 }
 
-.header .nav{
-	float: left;
-	width:20%;
-	border-right:3px solid #979797;
-	padding: 10px;
-	box-sizing: border-box;
-	text-align: center;
-	margin-top:35px;
-}
-
 .header img{
 	padding-right: 15px;
 	padding-top: 35px;
 }
+
+.nav{
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: row;
+	flex-wrap:nowrap;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.nav-item {
+	height:50px;
+	border-right: 3px solid #979797;
+	text-align: center;
+	text-decoration: none;
+	padding-right:5%;
+	padding-left: 5%;
+	padding-top:17px;
+	margin-top: 40px;
+}
+
+
+.carousel-inner img{
+	width: 100%;
+}
+
+.banner1{
+	display: -webkit-flex;
+	display: flex;
+	width:100%;
+	height:80px;
+	background-color: lightgrey;
+	flex-direction: row;
+	flex-wrap:nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.banner1-item img{
+	height:50px;
+}
+
+.banner2 {
+	background-color: white;
+	text-align: center;
+	padding: 40px 0;
+}
+
+.banner2 .banner2-flex{
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px 10%;
+}
+
+.banner2 .banner2-item{
+	margin: 0 40px;
+}
+
+
+.banner2 h2{
+	font-size: 40px;
+	color: #8a2330;
+}
+
+.banner2 p{
+	font-size: 18px;
+}
+
+.footer{
+	background-color: #3c5566;
+}
+
+.footer .logo img{
+	padding: 20px 10px;
+}
+
+
+.footer .footer-flex{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.footer .footer-item{
+	padding:0 5%;
+	text-align: center;
+	/*border: 2px #333 solid;*/
+}
+
+.footer a{
+	text-decoration: none;
+	color:#fff;
+}
+
+.footer a:hover{
+	color:#ba323c;
+}
+
+.footer ul{
+	list-style: none;
+	padding: 0;
+}
+
+.footer h3{
+	color:#fff;
+	margin-bottom: 40px;
+}
+
+.footer .footer-item img{
+	padding: 5px;
+}
+
+.footer .mid{
+	padding: 0 50px;
+	flex-grow: 10;
+	border-right: 3px solid white;
+	border-left: 3px solid white;
+}
+
+.footer .pic{
+	width:100%;
+	padding-top: 50px;
+}
+
+.footer p{
+	text-align: center;
+	padding-top: 30px;
+	color:#fff;
+}
+
+
+
+
+
 
 
 
