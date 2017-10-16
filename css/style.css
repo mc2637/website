@@ -128,6 +128,7 @@ body{
 
 .banner2 p{
 	font-size: 18px;
+	padding: 0 5%;
 }
 
 
@@ -146,8 +147,10 @@ body{
 }
 
 .banner3 img{
-	width: 100%;
+	width: 80%;
 	margin-left: 6%;
+	border:4px solid #3c5566;
+	border-radius: 15px;
 }
 
 .banner3 h1{
@@ -183,6 +186,35 @@ body{
 .banner3 button:hover{
 	background-color: #8a2330;
 }
+
+.publication{
+	font-size: 18px;
+	padding-bottom: 50px;
+
+}
+
+.publication h2{
+	font-size: 40px;
+	color: #8a2330;
+	text-align: left;
+}
+
+.publication p{
+	margin-left: 30px;
+}
+
+.publication a{
+	text-decoration: none;
+	font-style: italic;
+	color: #3c5566;
+}
+
+.publication a:hover{
+	color: #8a2330;
+}
+
+
+
 
 .footer{
 	background-color: #3c5566;
