@@ -47,7 +47,8 @@
 		<h2>Frequently Asked Auestions</h2>
 		<div>
 			<h3>General Information: </h3>
-			<p>What do we do at Precidiag?</p>
+			<p data-toggle="collapse" data-target="#GeneralInfo1">What do we do at Precidiag? (collapse list)</p>
+			<div id="GeneralInfo1" class="collapse">Here is the answer to first question. And it should not show at the beginning. And click <a href="about.html">here</a> will direct you to the about page. </div>
 			<p>What kind of results and recommendations will you provide?</p>
 			<p>How does Precidiag differ from other Microbiome testing companies?</p>
 			<p>Does Precidiag service need to be ordered by a physician?</p>
@@ -83,12 +84,33 @@
 			<p>What does the cost cover? Does Precidiag pay for shipping?</p>
 			<p>Can the services be covered by insurance?</p>
 			<p>Can I receive a refund if I decided to cancel early?</p>
-		</div>
-
-		
+		</div>	
 	</div>
 	
 </div><!-- ./constrain -->
+
+	<div class="contactform">
+		<div class="bg1"><h3>Can't find the answer? Let us know!</h3></div>
+		<div class="bg2"></div>
+		<div class="content">
+			<h2>Contact Us</h2>
+			<form class="my-form">
+				<div class="form-group">
+					<input type="text" name="name" placeholder="Your Name">
+				</div>
+
+				<div class="form-group">
+					<input type="text" name="email" placeholder="Your E-mail Address">
+				</div>
+
+				<div class="form-group">
+					<textarea name="message" placeholder="Message..."></textarea>
+				</div>
+
+				<input class="button" type="submit" value="Submit" name="" onclick="alert('Thanks for contacting us. We will get back to you soon!')">
+			</form>
+		</div>
+	</div>
 
 
 	<div class="footer">
