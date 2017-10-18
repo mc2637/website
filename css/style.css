@@ -320,6 +320,25 @@ body{
 	background-color: #8a2330;
 }
 
+.videoBanner{
+	padding: 30px 0;
+	text-align: center;
+	font-size: 18px;
+	border-bottom:3px solid #333;
+}
+
+.videoBanner h1{
+	color: #8a2330;
+	font-size: 40px;
+}
+
+#videoCarousel{
+	margin:50px 0;
+}
+
+.video-fluid{
+	width:100%;
+}
 
 
 .footer{
