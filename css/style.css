@@ -213,6 +213,65 @@ body{
 	color: #8a2330;
 }
 
+.banner4{
+	display: grid;
+	grid-template-columns: 3fr minmax(200px, 2fr) 3fr;
+	grid-template-rows: repeat(6 1fr);
+	height: 200px;
+	width: 100%;
+	margin:100px 0;
+}
+
+.banner4 img{
+	width: 40px;
+	height: 40px;
+	margin: 0 10px;
+}
+
+.constrain h2{
+	margin: 50px 0;
+	font-size: 40px;
+	text-align: center;
+	color: #8a2330;
+}
+
+.main{
+	grid-row: 2/6;
+	grid-column: 2/3;
+	background-image: url(../images/avatar.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.phraseL{
+	grid-column: 1/2;
+	text-align: right;
+	padding: 0 30px;
+	border: 1px solid #333;
+}
+
+
+.phraseR{
+	grid-column: 3/4;
+	text-align: left;
+	padding: 0 30px;
+	border: 1px solid #333;
+}
+
+.row1{
+	grid-row: 1/3;
+}
+
+.row2{
+	grid-row: 3/5;
+}
+
+.row3{
+	grid-row: 5/7;
+}
+
+
+
 .faqs{
 	font-size: 18px;
 }
