@@ -196,11 +196,11 @@ body{
 .publication h2{
 	font-size: 40px;
 	color: #8a2330;
-	text-align: left;
 }
 
 .publication p{
-	margin-left: 30px;
+	margin-left: 15%;
+
 }
 
 .publication a{
@@ -215,18 +215,17 @@ body{
 
 .banner4{
 	display: grid;
-	grid-template-columns: 3fr minmax(200px, 2fr) 3fr;
+	grid-template-columns: minmax(max-content,1fr) 1fr minmax(max-content,1fr);
 	grid-template-rows: repeat(6 1fr);
-	height: 200px;
 	width: 100%;
 	margin:100px 0;
 }
 
-.banner4 img{
-	width: 40px;
-	height: 40px;
-	margin: 0 10px;
+.banner4 p{
+	font-size: 20px;
+	font-weight: bold;
 }
+
 
 .constrain h2{
 	margin: 50px 0;
@@ -235,27 +234,34 @@ body{
 	color: #8a2330;
 }
 
+.descriptions{
+	text-align: center;
+	font-size: 18px;
+	padding:0 10%;
+}
 .main{
-	grid-row: 2/6;
+	grid-row: 1/7;
 	grid-column: 2/3;
-	background-image: url(../images/avatar.png);
+	background-image: url(../images/research.png);
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: cover;
 }
+
 
 .phraseL{
 	grid-column: 1/2;
 	text-align: right;
-	padding: 0 30px;
-	border: 1px solid #333;
+	padding: 30px 10px;
+	margin-right: -10px;
 }
 
 
 .phraseR{
 	grid-column: 3/4;
 	text-align: left;
-	padding: 0 30px;
-	border: 1px solid #333;
+	padding: 30px 10px;
+	margin-left: -10px;
 }
 
 .row1{
@@ -264,6 +270,8 @@ body{
 
 .row2{
 	grid-row: 3/5;
+	padding: 60px;
+	color: #8a2330;
 }
 
 .row3{
@@ -463,6 +471,8 @@ body{
 	padding-top: 30px;
 	color:#fff;
 }
+
+
 
 
 
